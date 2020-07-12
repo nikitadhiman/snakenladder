@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Snake and Ladder Game</title>
+	</head>
+	<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <div id="board"></div>
+                </div>
+                <div class="col">
+                    <div class="player-holder">
+                        <div class="player-item">
+                            <span>Player No. 1:</span><span class="player one"></span>
+                            <button onclick="move(0)" id='play0' class="btn btn-secondary">Play</button>
+                            <span class="player0"></span>
+                        </div>
+                        <div class="player-item">
+                            <span>Player No. 2:</span> <span class="player two"></span>
+                            <button onclick="move(1)" id='play1' disabled class="btn btn-secondary">Play</button>
+                            <span class="player1"></span>
+                        </div>
+                        <div class="player-item">
+                            <div class='button-holder'>
+                                <button onclick='reset()' class="btn btn-danger">Reset</button>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+            </div>    
+        </div>
+		
+        <script type="text/javascript" src="./index.js"></script>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</body>
+</html>

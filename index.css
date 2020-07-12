@@ -1,0 +1,61 @@
+#board{
+    /**background-image: url(./assets/board.jpg); */
+    background-size: contain;
+    height: 800px;
+    width: 800px;
+    background-repeat: no-repeat;
+}
+.box {
+    height: 80px;
+	width: 80px;
+    position: relative;
+	display: inline-block;
+	border: 1px solid #000;
+	vertical-align: top;
+}
+@media (max-width : 1100px){
+    #board{
+       /**background-image: url(./assets/board.jpg); */
+        background-size: contain;
+        height: 600px;
+        width: 600px;
+        background-repeat: no-repeat;
+    }
+    .box {
+        position: relative;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        border: 1px solid #000;
+        vertical-align: top;
+    }        
+}
+.player-holder{
+    padding-top: 15px;
+}
+.player-item{
+    padding-top: 10px;
+}
+.player {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+}
+.little-text {
+	color: #fff;
+	font-size: 12px;
+}
+.snake {
+	background: #FF0033;
+}
+.ladder {
+	background: #33CC33;
+}
+.one {
+	background: #770a0a;
+}
+.two {
+	background: #177a7a;
+}
+
